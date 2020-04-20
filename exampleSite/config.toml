@@ -1,9 +1,9 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
-title = "Somrat | Hugo Portfolio Template"
+title = "Brandon Haw's Personal Website"
 theme = "somrat"
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["fr"] # desable language from here
 
 ############################# Plugins ##############################
 
@@ -58,30 +58,32 @@ URL = "#about"
 weight = 2
 
 [[menu.main]]
-name = "Service"
-URL = "#service"
+name = "Experience"
+URL = "#experience"
 weight = 3
 
 [[menu.main]]
-name = "Portfolio"
-URL = "#portfolio"
+name = "Education"
+URL = "#education"
 weight = 4
 
-[[menu.main]]
-name = "Testimonial"
-URL = "#testimonial"
-weight = 5
+#[[menu.main]]
+#name = "Testimonial"
+#URL = "#testimonial"
+#weight = 5
 
 [[menu.main]]
 name = "Contact"
 URL = "#contact"
-weight = 6
+weight = 5
 
 
 #################### default parameters ################################
 [params]
-logo_light = "images/logo.png"
-logo_dark = "images/logo-dark.png"
+#logo_light = "images/logo.png"
+#logo_dark = "images/logo-dark.png"
+logo_light = ""
+logo_dark = ""
 # Meta data
 description = "This is meta description"
 author = "somrat"
@@ -96,25 +98,25 @@ enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
   
 ############################# social site ########################
-[[params.social]]
-icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.facebook.com/somrat.mac"
+#[[params.social]]
+#icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#link = "https://www.facebook.com/somrat.mac"
 
-[[params.social]]
-icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://twitter.com/somrat_37"
+#[[params.social]]
+#icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#link = "https://twitter.com/somrat_37"
 
-[[params.social]]
-icon = "fa-instagram" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.instagram.com/somrat_sorkar/"
+#[[params.social]]
+#icon = "fa-instagram" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#link = "https://www.instagram.com/somrat_sorkar/"
 
 [[params.social]]
 icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://github.com/Somrat37"
+link = "https://github.com/brandata"
 
 [[params.social]]
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.linkedin.com/in/somrat-sorkar-872581158/"
+link = "https://www.linkedin.com/in/brandonhaw/"
 
 
 ################################### English language #####################################

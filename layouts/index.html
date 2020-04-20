@@ -207,12 +207,17 @@
     </div>
     {{ end }}
     {{ end }}
+  </div>
+</section>
 
-    <div class="row experience-skill">
+  <section class="container" id="experience"></section>
+    <div class="container">
       {{ if $data.homepage.experience.enable }}
       {{ with $data.homepage.experience }}
-      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
+      <div class="row about-me-holder">
+      <div class="container about-me-text d-flex align-self-center">
+        <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+        <h1>{{ .title | safeHTML }}</h1>
         <ul class="experience-chart">
           {{ range .experience_list }}
           <li>
@@ -228,8 +233,39 @@
       </div>
       {{ end }}
       {{ end }}
+    </div>
+  </div>
+</div>
+  </section>
 
-      {{ if $data.homepage.skill.enable }}
+  <section class="services" id="education"></section>
+      <div class="container">
+        {{ if $data.homepage.education.enable }}
+        {{ with $data.homepage.education }}
+        <div class="row about-me-holder">
+          <div class="container about-me-text d-flex align-self-center">
+            <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+          <h1>{{ .title | safeHTML }}</h1>
+          <ul class="experience-chart">
+            {{ range .experience_list }}
+            <li>
+              <div class="single-experience">
+                <h4>{{ .name | markdownify }}</h4>
+                {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
+                {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
+                {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  </section>
+      <!-- {{ if $data.homepage.skill.enable }}
       {{ with $data.homepage.skill }}
       <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
         <h3>{{ .title }}</h3>
@@ -246,16 +282,14 @@
         </div>
       </div>
       {{ end }}
-      {{ end }}
-    </div>
-  </div>
-</section>
+      {{ end }} -->
+    <!-- </div> -->
 <!-- =============================
       End About Me
     =============================== -->
 
 <!-- =============================
-      Start Services
+      Start Skills
     =============================== -->
 <section class="services" id="service">
   {{ if $data.homepage.service.enable }}
