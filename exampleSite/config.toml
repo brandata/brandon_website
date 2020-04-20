@@ -88,7 +88,7 @@ logo_dark = ""
 description = "This is meta description"
 author = "somrat"
 # contact form action
-contact_form_action = "" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/mdolrjrl" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 
