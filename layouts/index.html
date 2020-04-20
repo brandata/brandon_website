@@ -9,12 +9,12 @@
   <div class="logo">
     <img class="img-fluid" src="{{ .Site.Params.logo_light | relURL }}" alt="{{ .Site.Title }}">
   </div>
-  <div class="slider-prev-button slider-button">
+  <!-- <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
   <div class="slider-next-button slider-button">
     <i class="fa fa-angle-right"></i>
-  </div>
+  </div> -->
   {{ with $data.homepage.hero }}
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .slider_image }}
