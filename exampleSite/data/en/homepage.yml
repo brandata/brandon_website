@@ -25,14 +25,14 @@ fullscreen_nav:
   bg_image : "images/backgrounds/full-nav-bg.jpg"
   first_name : "Brandon"
   last_name : "Haw"
-  
+
 
 ########################### About ##################################
 about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "ABOUT ME"
-  content : "Working as an Artificial Intelligence/Machine Learning Engineer has exposed me to both the challenges and potential of integrating Machine Learning and AI into products and processes. I have been responsible for AI across its full life cycle, from exploratory/data analysis, statistical analysis, algorithmic development, all the way to production and testing. In addition to developing novel AI solutions, I have experience creating strategic intents to sell projects and products to internal clients. This experience, combined with my unique engineering, consulting, and project management background, enables me to add value to a wide range of Machine Learning and Data Science landscapes." 
+  content : "Working as an Artificial Intelligence/Machine Learning Engineer has exposed me to both the challenges and potential of integrating Machine Learning and AI into products and processes. I have been responsible for AI across its full life cycle, from exploratory/data analysis, statistical analysis, algorithmic development, all the way to production and testing. In addition to developing novel AI solutions, I have experience creating strategic intents to sell projects and products to internal clients. This experience, combined with my unique engineering, consulting, and project management background, enables me to add value to a wide range of Machine Learning and Data Science landscapes."
   # button
   button:
     enable : true
@@ -45,62 +45,85 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name : "AI/Machine Learning Engineer"
+      company : "Katerra"
+      duration : "2019-2020"
+      content : "At Katerra I led a project to optimize the construction and assembly of mass timber panels in North America’s largest engineered lumber facility using applied AI methods. The work resulted in me being a co-inventor on the resulting patent: Active Lumber Management – 62/902,335. Below is a summary of my work and achievements:"
+      content_list:
+        - job_item : "Developed AI methods enabling up to $8 million in annual savings by allowing the facility to use a wider variety of lower grade lumber sources, while simultaneously reducing waste and assembly-line downtime. Solution included a combination of stochastic optimization methods, decision trees and tree search, deep learning, and more"
+        - job_item : "Researched/implemented optimization techniques leveraging the latest GPU technologies to increase the performance of the groups AI code. Performance increases led to reduced run time, allowing the team to iterate and experiment faster"
+        - job_item : "CV and AR for real-time QA of manufacturing lines: prevent downtime and downstream errors by automatically catching manufacturing defects early using CNNs"
+        - job_item : "Activity tracking: capture and log worker/manufacturing activities using deep learning and CNNs to be used for resource planning/allocation"
+        - job_item : "Real-time sensor-fusion for occupancy detection at-edge: created a time-series model capable of predicting the occupancy of a room using only temperature and humidity data using auto regressive models. Model required to run on low-powered edge devices"
+        - job_item : "Automated control of HVAC systems using streaming data: created a model to control an HVAC system using user-defined comfort settings. Savings of up to 40% in energy usage compared to conventional set-point control"
       
+
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
+    - name : "Founder and Lead Developer"
+      company : "Soduh"
+      duration : "2018-2019"
+      content : "Founded a startup that used computer vision to create 3D models of customers and clothing and then matched them using AI/deep learning. Goal was to improve fit confidence when shopping online."
+      content_list:
+      - job_item : "Programmed several Deep Learning and Machine Learning models to predict 'fit scores', a novel, more comprehensive way to assess fit. Built the website using Django. Created APIs using Django Rest Framework (DRF). Front end built using React. Mobile apps built in React Native"
+
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Internal Software Consultant"
+      company : "Siemens"
+      duration : "2015-2016"
+      content : "Part of Siemens Product Lifecycle Management (PLM) Team, tasked with improving the manufacturing and engineering efficiency of Siemens through the deployment of Siemens owned PLM software"
+      content_list:
+      - job_item : "Conducted site visits and interviews in various Siemens plants to map all business and engineering processes and their associated IT/software systems"
+      - job_item : "Identified issues present within the business/engineering processes and uncovered root causes"
+      - job_item : "Aligned software solutions to business requirements, targeting high potential areas first"
+      - job_item : "Worked with solutions team to develop a deployment plan best suited for the client’s needs"
+      - job_item : "Generated proposals and budgets to be used for sales purposes"
+    
+    - name : "Engineering Project Support"
+      company : "Siemens"
+      duration : "2013-2015"
+      content : "Sole engineer working alongside head PMO to oversee projects within Siemens Canada."
+      content_list:
+      - job_item : "Responsible for analyzing financial data and generating quarterly reports for over 100 projects"
+      - job_item : "Created comprehensive templates and increased the quality of reporting enabling more accurate tracking of project progress. Reports used by executive management and CEO to select projects for internal review"
+      - job_item : "Conducted internal project reviews, uncovered root causes to project issues, suggested corrective action. Recovered $600K in project costs in one instance"
+      - job_item : "Tracked implementation of PM@Siemens project management methodology for 8 divisions. Worked with local PM@Siemens coordinators to resolve project reporting issues"
+      - job_item : "Provided project support in the creation of a new youth development program within Siemens"
+      - job_item : "Part of Engineering Enabler Team, tasked with realizing CEO Robert Hardt's Country Opportunity Plan aimed at capitalizing on Siemens engineering strengths to drive future growth. Helped develop plan to enhance the cohesiveness of the engineering culture within Siemens to help increase the retention of current employees and better attract new employees"
+
 
 education:
   enable : true
   title : "EDUCATION"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
-      
+    - name : "Master's in Computer Science"
+      company : "Georgia Institute of Technology"
+      duration : "2017-2018"
+      content : "Completed a Master's in Computer Science specializing in Machine Learning, graduated Honours."
+
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
-    # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Bachelor's in Mechanical Engineering"
+      company : "Queen's University"
+      duration : "2008-2012"
+      content : "Completed a Bachelors in Mechanical Engineering, graduated Honours."
 
 ############################### Skill #################################
 skill:
-  enable : false 
+  enable : false
   title : "SKILLS"
   skill_list:
     # skill item loop
     - name : "Web Development"
       parcentage : "98%"
-      
+
     # skill item loop
     - name : "Graphic Design"
       parcentage : "85%"
-      
+
     # skill item loop
     - name : "Database Management"
       parcentage : "90%"
-      
+
     # skill item loop
     - name : "Wordpress"
       parcentage : "70%"
@@ -114,23 +137,23 @@ service:
     # service item loop
     - name : "Web Development"
       image : "images/icons/web-development.png"
-      
+
     # service item loop
     - name : "Graphic Design"
       image : "images/icons/graphic-design.png"
-      
+
     # service item loop
     - name : "Database Management"
       image : "images/icons/dbms.png"
-      
+
     # service item loop
     - name : "Software Development"
       image : "images/icons/software-development.png"
-      
+
     # service item loop
     - name : "Digital Marketing"
       image : "images/icons/marketing.png"
-      
+
     # service item loop
     - name : "Mobile App Development"
       image : "images/icons/mobile-app.png"
@@ -138,7 +161,7 @@ service:
 
 ############################## call to action #########################
 call_to_action:
-  enable : false 
+  enable : false
   bg_image : "images/backgrounds/need-service.jpg"
   title : "NEED A SERVICE?"
   button:
@@ -149,7 +172,7 @@ call_to_action:
 
 ############################# portfolio ################################
 portfolio:
-  enable : false 
+  enable : false
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
@@ -157,85 +180,85 @@ portfolio:
       image : "images/portfolio/item1.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item2.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item3.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item4.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item5.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item6.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item7.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item8.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item9.jpg"
       date : "Feb 2018"
       category : "Database"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item10.jpg"
       date : "Feb 2018"
       category : "Database"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item11.jpg"
       date : "Feb 2018"
       category : "Database"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item12.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item13.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item14.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item15.jpg"
@@ -245,7 +268,7 @@ portfolio:
 
 ################################# Testimonial #########################33
 testimonial:
-  enable : false 
+  enable : false
   title : "TESTIMONIALS"
   testimonial_slider:
     # slider item loop
@@ -254,14 +277,14 @@ testimonial:
       designation : "CEO, RANDOM COMPANY"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
                 omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
-                
+
     # slider item loop
     - name : "Peter Parker"
       image : "images/clients/client2.jpg"
       designation : "CEO, RANDOM COMPANY"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
                 omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
-                
+
     # slider item loop
     - name : "Jessica Jones"
       image : "images/clients/client3.jpg"
@@ -278,17 +301,17 @@ funfacts:
     - name : "HANDS TO WORK"
       image : "images/icons/works.png"
       count : "100"
-      
+
     # funfacts item loop
     - name : "HAPPY CLIENT"
       image : "images/icons/happy.png"
       count : "200"
-      
+
     # funfacts item loop
     - name : "FINISHED PROJECT"
       image : "images/icons/project.png"
       count : "250"
-      
+
     # funfacts item loop
     - name : "CUPS OF COFFEE"
       image : "images/icons/coffee.png"

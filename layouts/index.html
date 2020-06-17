@@ -226,6 +226,11 @@
               {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
               {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
               {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
+              {{ range .content_list }}
+              <ul class="job-list">
+                {{ with .job_item }} <p>{{ . | markdownify }}</p> {{ end }}
+              </ul>
+                {{ end }}
             </div>
           </li>
           {{ end }}

@@ -941,13 +941,31 @@ input:checked + label span:last-child {
 .experience-chart {
   list-style: none;
   padding: 0px 0px 0px 6px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 ul.experience-chart li {
   padding-left: 30px;
   border-left: 2px solid #6f6f6f;
   padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+ul.job-list p {
+  display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: outside;
+  margin-left: 0px;
+  position: relative;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+ul.job-list {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   position: relative;
 }
 
@@ -988,6 +1006,7 @@ ul.experience-chart h4 {
 }
 
 .experience-chart li p {
+  margin-bottom: 0px;
   color: #6f6f6f;
 }
 
