@@ -18,7 +18,9 @@
   {{ with $data.homepage.hero }}
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
     {{ range .slider_image }}
-    <div class="slider"><img class="img-fluid" src="{{ . | absURL }}" alt="slider-background"></div>
+    <div class="slider">
+      <img class="img-fluid" src="{{ . | absURL }}" alt="slider-background">
+    </div>
     {{ end }}
   </div>
   <div class="container">
@@ -134,8 +136,10 @@
             <span></span>
           </div>
         </a>
-        <div class="mobile-menu-logo"><a href="{{.Site.BaseURL | relLangURL }}"><img class="img-fluid"
-              src="{{ .Site.Params.logo_dark | absURL }}" alt="{{ .Site.Title }}"></a>
+        <div class="mobile-menu-logo">
+          <!-- <a href="{{.Site.BaseURL | relLangURL }}">
+            <img class="img-fluid"
+              src="{{ .Site.Params.logo_dark | absURL }}" alt="{{ .Site.Title }}"></a> -->
         </div>
         <div class="menu-slider">
           <nav>
