@@ -4,6 +4,7 @@
 
 html {
   height: 100%;
+  background: url('../images/backgrounds/noisyly.png') repeat fixed, linear-gradient(to bottom, rgba(28,20,20,0.26) 0%,rgba(155,155,155,0) 0.2em) fixed;
 }
 
 * {
@@ -12,6 +13,7 @@ html {
 
 body {
   font-family: 'Rubik', sans-serif;
+  background: url('../images/backgrounds/noisyly.png') repeat fixed, linear-gradient(to bottom, rgba(28,20,20,0.26) 0%,rgba(155,155,155,0) 0.2em) fixed;
   height: 100%;
 }
 
@@ -852,7 +854,8 @@ input:checked + label span:last-child {
 ----------------------------------*/
 
 .about-me {
-  background: #fff;
+  /* background: #fff; */
+  /* background: url('../images/backgrounds/noisyly.png') repeat fixed, linear-gradient(to bottom, rgba(28,20,20,0.26) 0%,rgba(155,155,155,0) 0.2em) fixed; */
   padding: 125px 0px 70px 0px;
 }
 
@@ -1091,7 +1094,8 @@ ul.experience-chart h4 {
 ----------------------------------*/
 
 .services {
-  background: #fff;
+  /* background: #fff; */
+  background: url('../images/backgrounds/noisyly.png') repeat fixed, linear-gradient(to bottom, rgba(28,20,20,0.26) 0%,rgba(155,155,155,0) 0.2em) fixed;
   padding: 70px 0px;
 }
 
@@ -1555,7 +1559,7 @@ ul.experience-chart h4 {
 .contact {
   background: #313131;
   /* Fallback Background */
-  background-image: url("../images/backgrounds/contact-us-bg.jpg");
+  background-image: url("../images/backgrounds/full-nav-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

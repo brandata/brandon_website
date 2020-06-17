@@ -135,15 +135,15 @@ service:
   title : "SKILLS"
   service_list:
     # service item loop
-    - name : "Web Development"
+    - name : "Python"
       image : "images/icons/web-development.png"
 
     # service item loop
-    - name : "Graphic Design"
+    - name : "Visualization"
       image : "images/icons/graphic-design.png"
 
     # service item loop
-    - name : "Database Management"
+    - name : "Machine Learning"
       image : "images/icons/dbms.png"
 
     # service item loop
@@ -151,11 +151,11 @@ service:
       image : "images/icons/software-development.png"
 
     # service item loop
-    - name : "Digital Marketing"
+    - name : "Data Science/Analytics"
       image : "images/icons/marketing.png"
 
     # service item loop
-    - name : "Mobile App Development"
+    - name : "Deep Learning"
       image : "images/icons/mobile-app.png"
 
 
@@ -321,4 +321,4 @@ funfacts:
 ############################## contact ###########################
 contact:
   enable : true
-  title : "SAY HELLO!"
+  title : "GET IN TOUCH"
