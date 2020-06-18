@@ -1137,21 +1137,26 @@ ul.experience-chart h4 {
 }
 
 .service-img {
-  width: 100px;
+  /* width: 50px; */
   margin: auto;
+  align-items: center;
+  font-size: 50px;
+  /* text-align: center; */
 }
 
-.services-icon img {
-  width: 100%;
-}
+/* .service-img.img-fluid {
+  display: block;
+  align-items: center;
+  text-align: center;
+} */
 
 .service-label {
   position: absolute;
   left: 0;
   right: 0;
-  top: 100px;
+  top: 65px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: -0.5px;
   font-size: 19px;
 }
@@ -1189,6 +1194,11 @@ ul.experience-chart h4 {
   font-size: 40px;
   letter-spacing: 2px;
   z-index: 2;
+}
+
+.devicon {
+  max-width: 2em;
+  font-size: 5rem;
 }
 
 .need-service a {
@@ -1539,13 +1549,6 @@ ul.experience-chart h4 {
   margin-top: -10px;
   color: #6f6f6f;
   font-weight: 700;
-}
-
-.fun-fact-holder .fact-counter {
-  text-align: center;
-  font-weight: 700;
-  font-size: 21px;
-  margin-top: 13px;
 }
 
 /*--------------------------------
@@ -2063,7 +2066,7 @@ textarea.form-control::-webkit-input-placeholder,
     width: 100%;
   }
   .service-label {
-    top: 110px;
+    top: 75px;
     letter-spacing: 0;
     font-size: 17px;
   }

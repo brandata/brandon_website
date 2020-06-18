@@ -315,7 +315,12 @@
             {{ range .service_list }}
             <div class="col-lg-4 col-sm-4 col-12 services-icon">
               <div class="service-img">
-                <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name | markdownify }}">
+                {{ with .icon }}
+                <i class="{{ . }}"></i>
+                {{ end }}
+                {{ with .image }}
+                <img class="img-fluid" src="{{ . | absURL }}">
+                {{ end }}
               </div>
               <div class="service-label">{{ .name | markdownify }}</div>
             </div>

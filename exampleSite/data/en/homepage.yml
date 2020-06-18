@@ -136,28 +136,67 @@ service:
   service_list:
     # service item loop
     - name : "Python"
-      image : "images/icons/web-development.png"
+      icon : "fab fa-python"
+
+        # service item loop
+    - name : "C++"
+      icon : "devicon-cplusplus-plain"
+
+        # service item loop
+    - name : "Golang"
+      icon : "devicon-go-plain"
 
     # service item loop
     - name : "Visualization"
-      image : "images/icons/graphic-design.png"
+      icon : "fas fa-chart-area"
+
+    # service item loop
+    - name : "D3.js"
+      icon : "devicon-d3js-plain"
 
     # service item loop
     - name : "Machine Learning"
-      image : "images/icons/dbms.png"
+      image : "https://img.icons8.com/ios/50/000000/machine-learning.png"
 
     # service item loop
     - name : "Software Development"
-      image : "images/icons/software-development.png"
+      icon : "far fa-file-code"
 
     # service item loop
-    - name : "Data Science/Analytics"
-      image : "images/icons/marketing.png"
+    - name : "Docker"
+      icon : "devicon-docker-plain"
 
     # service item loop
+    - name : "Git"
+      icon : "devicon-git-plain"
+
+    # service item loop
+    - name : "Linux"
+      icon : "devicon-linux-plain"
+
+    # service item loop
+    - name : "Data Science / Analytics"
+      image : "https://img.icons8.com/ios/50/000000/normal-distribution-histogram.png"
+
+    # service item loop
+    - name : "React / React Native"
+      icon : "fab fa-react"
+
+          # service item loop
     - name : "Deep Learning"
-      image : "images/icons/mobile-app.png"
+      image : "https://img.icons8.com/ios/50/000000/artificial-intelligence.png"
 
+          # service item loop
+    - name : "Computer Vision"
+      icon : "far fa-eye"
+
+          # service item loop
+    - name : "NLP"
+      icon : "fas fa-language"
+
+    #       # service item loop
+    # - name : "Deep Learning"
+    #   image : "images/icons/mobile-app.png"
 
 ############################## call to action #########################
 call_to_action:
