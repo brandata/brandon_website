@@ -319,7 +319,7 @@
                 <i class="{{ . }}"></i>
                 {{ end }}
                 {{ with .image }}
-                <img class="img-fluid" src="{{ . | absURL }}">
+                <img class="img-fluid" src="{{ . | absURL }} " style="text-align:center">
                 {{ end }}
               </div>
               <div class="service-label">{{ .name | markdownify }}</div>

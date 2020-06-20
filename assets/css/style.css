@@ -1138,17 +1138,23 @@ ul.experience-chart h4 {
 
 .service-img {
   /* width: 50px; */
-  margin: auto;
+  display: block;
+  /* margin: auto; */
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
   font-size: 50px;
   /* text-align: center; */
 }
 
-/* .service-img.img-fluid {
+.img-fluid {
   display: block;
   align-items: center;
   text-align: center;
-} */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
 
 .service-label {
   position: absolute;
@@ -2065,6 +2071,16 @@ textarea.form-control::-webkit-input-placeholder,
   .services-icon img {
     width: 100%;
   }
+  
+  .img-fluid {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+
   .service-label {
     top: 75px;
     letter-spacing: 0;

@@ -134,17 +134,54 @@ service:
   enable : true
   title : "SKILLS"
   service_list:
+    
     # service item loop
     - name : "Python"
       icon : "fab fa-python"
 
-        # service item loop
+    # service item loop
     - name : "C++"
       icon : "devicon-cplusplus-plain"
 
-        # service item loop
+    # service item loop
+    - name : "R"
+      image : "https://api.iconify.design/cib:r.svg?height=50"
+
+    # service item loop
     - name : "Golang"
       icon : "devicon-go-plain"
+
+    # service item loop
+    - name : "Pytorch"
+      image : "https://api.iconify.design/cib:pytorch.svg?height=50"
+    
+    # service item loop
+    - name : "Tensorflow"
+      image : "https://api.iconify.design/simple-icons:tensorflow.svg?height=50"
+    
+    # service item loop
+    - name : "Deep Learning"
+      image : "https://img.icons8.com/ios/50/000000/artificial-intelligence.png"
+
+    # service item loop
+    - name : "Machine Learning"
+      image : "https://img.icons8.com/ios/50/000000/machine-learning.png"
+    
+    # service item loop
+    - name : "Computer Vision"
+      icon : "far fa-eye"
+
+    # service item loop
+    - name : "NLP"
+      icon : "fas fa-language"
+
+    # service item loop
+    - name : "Javascript"
+      icon : "devicon-javascript-plain"
+
+    # service item loop
+    - name : "SQL"
+      icon : "devicon-postgresql-plain"
 
     # service item loop
     - name : "Visualization"
@@ -153,10 +190,6 @@ service:
     # service item loop
     - name : "D3.js"
       icon : "devicon-d3js-plain"
-
-    # service item loop
-    - name : "Machine Learning"
-      image : "https://img.icons8.com/ios/50/000000/machine-learning.png"
 
     # service item loop
     - name : "Software Development"
@@ -181,18 +214,6 @@ service:
     # service item loop
     - name : "React / React Native"
       icon : "fab fa-react"
-
-          # service item loop
-    - name : "Deep Learning"
-      image : "https://img.icons8.com/ios/50/000000/artificial-intelligence.png"
-
-          # service item loop
-    - name : "Computer Vision"
-      icon : "far fa-eye"
-
-          # service item loop
-    - name : "NLP"
-      icon : "fas fa-language"
 
     #       # service item loop
     # - name : "Deep Learning"
