@@ -1,10 +1,10 @@
 ######################## default configuration ####################
 baseURL = "/"
+googleAnalytics = "UA-136675571-2"
 title = "Brandon Haw's Personal Website"
 theme = "somrat"
 # disable language
 disableLanguages = ["fr"] # desable language from here
-googleAnalytics = "UA-136675571-2"
 
 ############################# Plugins ##############################
 
